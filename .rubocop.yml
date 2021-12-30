@@ -1,0 +1,112 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+Layout/LineLength:
+  Enabled: false
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+Metrics/AbcSize:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Metrics/ParameterLists:
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+Naming/AccessorMethodName:
+  Enabled: false
+Naming/MethodName:
+  EnforcedStyle: snake_case
+PluralizationGrammar:
+  Enabled: false
+Layout/HashAlignment:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/Lambda:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+Style/StringLiterals:
+  Enabled: false
+Style/IfUnlessModifier:
+  Enabled: false
+Style/EmptyMethod:
+  Enabled: false
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+Style/AccessModifierDeclarations:
+  EnforcedStyle: inline
+Style/AccessorGrouping:
+  Enabled: false
+Style/FormatString:
+  Enabled: false
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - development
+    - test
+Performance/RedundantBlockCall:
+  Enabled: false
+RSpec/MessageSpies:
+  Enabled: false
+Style/MultilineBlockChain:
+  Enabled: false
+Naming/PredicateName:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  Enabled: false
+Style/NilComparison:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+Lint/MissingSuper:
+  Enabled: false
+Style/NonNilCheck:
+  Enabled: false
+Metrics/BlockNesting:
+  Enabled: false
+Style/QuotedSymbols:
+  Enabled: false
+Naming/VariableNumber:
+  Enabled: false
+Lint/DuplicateBranch:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: false
+RSpec/DescribedClass:
+  Enabled: false
+RSpec/ExampleLength:
+  Enabled: false
+RSpec/LetSetup:
+  Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false
+RSpec/NestedGroups:
+  Enabled: false
+RSpec/ContextWording:
+  Enabled: false
+RSpec/StubbedMock:
+  Enabled: false
