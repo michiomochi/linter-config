@@ -111,3 +111,9 @@ RSpec/ContextWording:
   Enabled: false
 RSpec/StubbedMock:
   Enabled: false
+GraphQL/ObjectDescription:
+  Enabled: false
+GraphQL/FieldDescription:
+  Enabled: false
+GraphQL/ArgumentDescription:
+  Enabled: false
