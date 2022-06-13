@@ -123,3 +123,5 @@ GraphQL/ExtractType:
   Enabled: false
 GraphQL/UnusedArgument: #because: https://github.com/DmitryTsepelev/rubocop-graphql/issues/64
   Enabled: false
+GraphQL/FieldDefinitions:
+  Enabled: false
