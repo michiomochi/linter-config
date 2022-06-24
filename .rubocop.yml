@@ -125,3 +125,7 @@ GraphQL/UnusedArgument: #because: https://github.com/DmitryTsepelev/rubocop-grap
   Enabled: false
 GraphQL/FieldDefinitions:
   Enabled: false
+Style/RedundantInitialize:
+  Enabled: false
+GraphQL/ArgumentUniqueness:
+  Enabled: false
