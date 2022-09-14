@@ -129,3 +129,5 @@ Style/RedundantInitialize:
   Enabled: false
 GraphQL/ArgumentUniqueness:
   Enabled: false
+GraphQL/OrderedFields:
+  Enabled: false
