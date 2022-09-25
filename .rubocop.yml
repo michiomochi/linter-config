@@ -131,3 +131,5 @@ GraphQL/ArgumentUniqueness:
   Enabled: false
 GraphQL/OrderedFields:
   Enabled: false
+Style/EmptyElse:
+  Enabled: false
