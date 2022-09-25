@@ -133,3 +133,5 @@ GraphQL/OrderedFields:
   Enabled: false
 Style/EmptyElse:
   Enabled: false
+GraphQL/OrderedArguments:
+  Enabled: false
